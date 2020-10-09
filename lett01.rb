@@ -11,7 +11,7 @@
 def get_decimal_value(head)
   sum = 0
 
-  while head != null
+  while head != nil
     sum *= 2
     sum += head.val
     head = head.next
